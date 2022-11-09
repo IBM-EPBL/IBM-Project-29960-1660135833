@@ -1,0 +1,46 @@
+<html>
+    <head>
+    <title>
+        chatbot for bank
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "8d325c4b-c3b5-44cc-801f-d98da9e670b4", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "bdb353f8-5ba4-492a-94c1-64f2a5633c5b", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+
+
+
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="home.html">Form</a></li>
+                <li><a href="services.html">About</a></li>
+                <li><a href="faq.html">Samples</a></li>
+            </ul>
+        </div>
+    
+    <div>
+        <h1 class="para">AI BASED DISCOURSE FOR BANKING INDUSTRY</h1>
+        <P class="pages"> This is a web page with chatbot for bank to help the customers by providing answers for the quesions which is arised by the customer.</P>
+    </div>
+    </div>
+</body>
+</html>
